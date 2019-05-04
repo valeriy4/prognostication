@@ -1,0 +1,165 @@
+@font-face {
+	font-family: "navfon"; 
+	src: url("../fonts/16411.otf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+
+body{
+	background-color:#e1e1e1;
+	padding: 0;
+	margin:0;
+}
+
+.header{
+	height: 215px;
+}
+
+.top{
+
+	height: 35px;
+	width: 100%;
+	background-color: #404040;
+}
+
+.top p{
+	float: left;
+	width: 70%;
+	font-family: "navfon";
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+	color:#b9b9b9;
+	text-align: right;
+
+}
+
+.top a{
+	width: 30%;
+	float: right;
+	font-family: "navfon";
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+	padding-top: 7px;
+	color:white;
+	text-align: right;
+}
+
+.logo{
+	width:300px;
+	float:left;
+}
+
+.logo img{
+	width:300px;
+	height: 180px;
+}
+
+.naprav{
+	height: 180px;
+}
+
+.naprav h2{
+	font-family: "navfon";
+	color: #414141;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 70px;
+}
+
+.main{
+	width: 100%;
+	border-top: 5px solid #666;
+}
+
+.navbar {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 20%;
+	float:left;
+}
+
+.navbar h3{
+	font-size: 23px;
+	font-family: "navfon";
+	padding: 20px;
+	margin: 0;
+	color:#303c4f;
+	background-color: #9dbff4;
+	display: block;
+	text-align: center;
+}
+
+.navbar a {
+	font-size: 15px;
+	font-family: "navfon";
+	text-align: center;
+	background-color: #6592b5;
+	color:#1c2c38;
+	padding: 20px;
+	margin: 0;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar li {
+    border-left: 5px solid #666;
+    border-right: 5px solid #666;
+    border-bottom: 2px solid #666;
+}
+
+.active a{
+	background-color: #C1D6E1;
+}
+
+.info{
+	font-family: "navfon";
+	color: #414141;
+}
+
+.info h3{
+	text-align: center;
+}
+
+.info table{
+	width: 20%;
+	margin-left:50%;
+	border-collapse: collapse;
+}
+
+.info td{
+	padding: 7px;
+	border:2px solid #666;;
+}
+
+.info td:first-child{
+	text-align: left;
+}
+
+.info td:last-child{
+	text-align: center;
+}
+
+.footer{
+	float:left;
+	margin: 0;
+	padding: 0;
+	height: 35px;
+	width: 100%;
+	background-color: #404040;
+}
+
+.footer p{
+	font-family: "navfon";
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+	color:#b9b9b9;
+	text-align: center;
+
+}
+
